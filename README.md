@@ -1,6 +1,6 @@
 # `next@12` with `@auth0/nextjs-autho@3`
 
-**This repo is to demonstrate that `@auth0/nextjs-autho@3` is expecting `next@13`.**
+**This repo is to demonstrate that `@auth0/nextjs-autho@3` is expecting `next@13`. See https://github.com/auth0/nextjs-auth0/issues/1393.**
 
 It has `next@12` and `@auth0/nextjs-autho@3` installed. It includes a `/pages/middleware.js` to require authentication on all pages. If you install the dependencies, run the dev server, and load a page, you will see the following:
 
