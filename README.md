@@ -1,4 +1,4 @@
-# `next@12` with `@auth0/nextjs-autho@3`
+# `next@12` with `@auth0/nextjs-auth0@3`
 
 **This repo is to demonstrate that `@auth0/nextjs-autho@3` is expecting `next@13`. See https://github.com/auth0/nextjs-auth0/issues/1393.**
 
