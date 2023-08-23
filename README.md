@@ -1,3 +1,24 @@
+# `next@12` with `@auth0/nextjs-autho@3`
+
+**This repo is to demonstrate that `@auth0/nextjs-autho@3` is expecting `next@13`.**
+
+It has `next@12` and `@auth0/nextjs-autho@3` installed. It includes a `/pages/middleware.js` to require authentication on all pages. If you install the dependencies, run the dev server, and load a page, you will see the following:
+
+```
+Module not found: Can't resolve 'next/navigation'
+
+Import trace for requested module:
+./node_modules/@auth0/nextjs-auth0/dist/helpers/index.js
+./node_modules/@auth0/nextjs-auth0/dist/edge.js
+./middleware.js
+
+https://nextjs.org/docs/messages/module-not-found
+```
+
+`@auth0/nextjs-autho@3` is using `next@13` features but currently lists `next@>=10` as a peer dependency.
+
+<hr />
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
